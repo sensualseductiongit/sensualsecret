@@ -35,11 +35,20 @@ const REDIS_URL = process.env.REDIS_URL || "redis://localhost:6379";
 
 const plugins = [
   `medusa-fulfillment-manual`,
-  `medusa-payment-manual`,
+  /*  `medusa-payment-manual`,
   {
     resolve: `@medusajs/file-local`,
     options: {
       upload_dir: "uploads",
+    },
+  }, */ 
+  {
+    resolve: `medusa-file-github`,
+    options: {
+      owner: "bentrynning",
+      repo: "medusa",
+      path: "public",
+      github_token: "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",
     },
   },
   {
