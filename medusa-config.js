@@ -45,10 +45,10 @@ const plugins = [
   {
     resolve: `medusa-file-github`,
     options: {
-      owner: "bentrynning",
-      repo: "medusa",
+      owner: "sensualseductiongit",
+      repo: "sensualsecret",
       path: "public",
-      github_token: "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",
+      github_token: "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",
     },
   },
   {
