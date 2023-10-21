@@ -48,7 +48,7 @@ const plugins = [
       owner: "sensualseductiongit",
       repo: "sensualsecret",
       path: "public",
-      github_token: "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",
+      github_token: "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",
     },
   },
   {
